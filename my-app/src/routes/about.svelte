@@ -1,7 +1,7 @@
 <!-- <script lang="ts">
 
 </script> -->
-<script context="module">
+<!-- <script context="module">
   import { browser, dev } from "$app/env";
 
   // we don't need any JS on this page, though we'll load
@@ -15,8 +15,8 @@
   // since there's no dynamic data here, we can prerender
   // it so that it gets served as a static asset in prod
   export const prerender = true;
-</script>
-
+</script> -->
+<!-- 
 <main>
   <div class="wrapper">
     <div class="row">
@@ -97,9 +97,9 @@
       </div>
     </div>
   </div>
-</main>
+</main> -->
 
-<style>
+<!-- <style>
  
   li {
     margin-right: 5%;
@@ -119,4 +119,4 @@
     overflow: auto;
   }
   
-</style>
+</style> -->
