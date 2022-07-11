@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-8eade12b.js",
+    "file": "immutable/start-dd07d971.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,7 +15,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "immutable/pages/__layout.svelte-158f5448.js",
+    "file": "immutable/pages/__layout.svelte-aecc9ccc.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -23,9 +23,7 @@
       "_index-9ff21ff5.js"
     ],
     "css": [
-      "immutable/assets/pages/__layout.svelte-4954bbc5.css",
-      "immutable/assets/index.svelte_svelte_type_style_lang-821e27a7.css",
-      "immutable/assets/projects.svelte_svelte_type_style_lang-dbe09f8a.css"
+      "immutable/assets/pages/__layout.svelte-4954bbc5.css"
     ],
     "assets": [
       "immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
@@ -47,16 +45,19 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "immutable/pages/about.svelte-98243341.js",
+    "file": "immutable/pages/about.svelte-23eb7640.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-9ff21ff5.js"
+    ],
+    "css": [
+      "immutable/assets/pages/about.svelte-03386100.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-a39a1421.js",
+    "file": "immutable/pages/index.svelte-dae90acc.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -64,11 +65,11 @@
       "_index-9ff21ff5.js"
     ],
     "css": [
-      "immutable/assets/index.svelte_svelte_type_style_lang-821e27a7.css"
+      "immutable/assets/pages/index.svelte-47a3c3df.css"
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "immutable/pages/projects.svelte-6e426e70.js",
+    "file": "immutable/pages/projects.svelte-9ff0f42e.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -76,7 +77,7 @@
       "_index-9ff21ff5.js"
     ],
     "css": [
-      "immutable/assets/projects.svelte_svelte_type_style_lang-dbe09f8a.css"
+      "immutable/assets/pages/projects.svelte-c98a1635.css"
     ]
   },
   "_index-9ff21ff5.js": {
