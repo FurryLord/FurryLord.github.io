@@ -7,6 +7,8 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/immutable/assets/pages/__layout.svelte-4954bbc5.css">
 	<link rel="stylesheet" href="/_app/immutable/assets/pages/about.svelte-75b7d1a7.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/index.svelte-dc3ab032.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/projects.svelte-4ac8646b.css">
 	</head>
 	<body>
 		<div>
@@ -16,15 +18,31 @@
 		</div> 
 
 	<nav class="svelte-15v1box"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-15v1box"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-15v1box"></path></svg>
-		<ul class="svelte-15v1box"><li class="svelte-15v1box"><a sveltekit:prefetch href="#" class="svelte-15v1box">Home</a></li>
-			<li class="svelte-15v1box"><a sveltekit:prefetch href="#about" class="svelte-15v1box">About me</a></li>
-			<li class="svelte-15v1box"><a sveltekit:prefetch href="#projects" class="svelte-15v1box">My project</a></li></ul>
+		<ul class="svelte-15v1box"><li class="svelte-15v1box"><a sveltekit:prefetch href="/" class="svelte-15v1box">Home</a></li>
+			<li class="svelte-15v1box active"><a sveltekit:prefetch href="/about" class="svelte-15v1box">About me</a></li>
+			<li class="svelte-15v1box"><a sveltekit:prefetch href="/projects" class="svelte-15v1box">My project</a></li></ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-15v1box"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-15v1box"></path></svg></nav>
 
 	<div class="corner svelte-15v1box"></div>
 </header>
 
-<main class="svelte-frf2tm">
+<main class="svelte-frf2tm"><main><div class="wrapper"><div class="row svelte-10k3pd2"><div class="col span10 content svelte-10k3pd2"><h2 class="textbox1 svelte-10k3pd2">I am <span id="underlined" class="svelte-10k3pd2">Innopolis University student</span>
+					keen on <span class="wave_underlined svelte-10k3pd2">ML engenering</span>
+					and wish for creating cost-effective and proficient
+					<span class="wave_underlined svelte-10k3pd2">neural networks</span></h2>
+				<div class="contactbox svelte-10k3pd2"><h3>My contacts:</h3>
+					<ul class="svelte-10k3pd2"><li class="svelte-10k3pd2"><a href="mailto:a.rusin@innopolis.university" class="svelte-10k3pd2"><img src="outlook.png" alt="email" class="svelte-10k3pd2">
+								Email</a></li>
+						<li class="svelte-10k3pd2"><a href="https://github.com/FurryLord" class="svelte-10k3pd2"><img src="github.png" alt="github" class="svelte-10k3pd2">
+								Github</a></li>
+						<li class="svelte-10k3pd2"><a href="https://t.me/Furry_Lord" class="svelte-10k3pd2"><img src="telegram.png" alt="img" class="svelte-10k3pd2"> Telegram</a></li>
+						<li class="svelte-10k3pd2"><a href="https://vk.com/arseniruss" class="svelte-10k3pd2"><img src="vk.png" alt="vk" class="svelte-10k3pd2"> VK</a></li></ul></div>
+				<br>
+				<div class="textbox2 svelte-10k3pd2"><h3 class="svelte-10k3pd2">Looking forward for you messages!</h3></div></div>
+			<div class="col span5 offset-by-one"><div class="image_container svelte-10k3pd2"><img src="mascot.jpg" alt="mascot" class="svelte-10k3pd2">
+					<div class="top-left_image svelte-10k3pd2"><h3>My mascot - InnoFox ^^</h3></div></div></div></div></div>
+</main>
+  
 
 
 <main><div class="wrapper"><div class="row"><div class="col span4 box svelte-1vtpkez"><h2>Education</h2>
@@ -65,6 +83,11 @@
               <li class="svelte-1vtpkez">Empathy</li>
               <li class="svelte-1vtpkez">Enthusiasm</li></ul></li></ul></div></div></div>
 </main>
+  <div class="wrapper"><div class="row"><div class="col span6 box svelte-1u9pufi"><div class="buttons svelte-1u9pufi"><input id="name" type="text" placeholder="Enter your name" class="svelte-1u9pufi">
+                <button type="submit" id="submitButton" class="svelte-1u9pufi">Submit
+                </button></div>
+            <div id="fact" class="svelte-1u9pufi"></div></div></div>
+</div>
 </main>
 
 </div>
