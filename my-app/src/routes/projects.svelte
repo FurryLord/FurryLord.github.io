@@ -38,7 +38,7 @@
 
 <div class="wrapper">
     <div class="row">
-        <div class="col span6 box">
+        <div class="col span6 offset-by-three box">
             <div class="buttons">
                 <input
                     id="name"
@@ -73,7 +73,6 @@
         overflow: auto;
         text-align: center;
     }
-
     #fact {
         margin: 5% 10% 5% 10%;
         padding: 2% 2% 2% 2%;
@@ -81,14 +80,12 @@
         border-style: dashed;
         visibility: hidden;
     }
-
     #name {
         color: black;
         padding: 3% 2% 3% 2%;
         height: 1rem;
         width: 50%;
     }
-
     #submitButton {
         width: 20%;
         color: black;
@@ -96,12 +93,31 @@
         padding-left: 3%;
         padding-right: 3%;
     }
-
     .buttons {
         color: black;
         margin-top: 3%;
         display: flex;
         justify-content: center;
     }
-
+    /* each column is 130px or 6.77% */
+    /* each gutter is 30px ot 1.56%  */
+    .col {
+        float: left;
+        margin-left: 1.56%;
+        width: 6.77%;
+    }
+    /* container for row */
+    .row {
+        clear: both;
+    }
+    /* most right gutter */
+    .wrapper {
+        padding-right: 1.56%;
+    }
+    .col.span6 {
+        width: calc((6.77% * 6) + (1.56% * 5));
+    }
+    .offset-by-three {
+        margin-left: calc(6.77% * 3 + (1.56% * 4));
+    }
 </style>

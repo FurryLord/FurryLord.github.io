@@ -99,8 +99,10 @@
   </div>
 </main>
 
-<!-- <style>
- 
+<style>
+  h2{
+    margin-left: 5%;
+  }
   li {
     margin-right: 5%;
     margin-left: 5%;
@@ -119,4 +121,4 @@
     overflow: auto;
   }
   
-</style> -->
+</style> 
