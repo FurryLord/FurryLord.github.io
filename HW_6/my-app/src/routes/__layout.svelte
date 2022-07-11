@@ -1,0 +1,18 @@
+<script lang="ts">
+	import Header from '$lib/header/Header.svelte';
+	import '../app.css';
+</script>
+
+<Header />
+
+<main>
+  <slot />
+</main>
+
+
+<style>
+	main {
+		margin-top: 2%;
+	}
+
+</style>
