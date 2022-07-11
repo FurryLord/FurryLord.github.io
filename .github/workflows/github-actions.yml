@@ -1,4 +1,3 @@
-name: Build and Deploy
 on: [push]
 permissions:
   contents: write
@@ -22,7 +21,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          branch: pages # The branch the action should deploy to.
-          folder: my-app/build # The folder the action should deploy.
-          repository-name: FurryLord/FurryLord.github.io
-          token: ${{ secrets.TEST }}
+          branch: pages 
+          folder: my-app/build
+
+      
