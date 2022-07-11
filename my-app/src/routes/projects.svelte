@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
     // assign variables their interfaces for type check
     // let button = document.getElementById("submitButton") as HTMLButtonElement;
     // var userName = document.getElementById("name") as HTMLFormElement;
@@ -34,9 +34,9 @@
         // var textField = document.getElementById("fact") as HTMLElement;
         textField.style.visibility = "visible";
     }
-</script> -->
+</script>
 
-<!-- <div class="wrapper">
+<div class="wrapper">
     <div class="row">
         <div class="col span6 box">
             <div class="buttons">
@@ -104,4 +104,4 @@
         justify-content: center;
     }
 
-</style> -->
+</style>
